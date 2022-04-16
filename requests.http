@@ -1,0 +1,7 @@
+@api = http://localhost:8080
+
+### get people
+GET {{api}}/people
+
+### get person
+GET {{api}}/people/89d5998b-979d-4075-b28e-23ee1a80f281
