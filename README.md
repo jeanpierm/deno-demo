@@ -1,7 +1,10 @@
 # deno demo
 
 Simple http server example
-![deno logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png)
+
+<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png" height="128" />
+</div>
 
 ```bash
 # bundle app
