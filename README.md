@@ -10,8 +10,14 @@ Simple http server example
 # bundle app
 deno bundle src/index.ts > app.bundle.js
 
-# run server
+# run server (bundle)
 deno run --allow-net app.bundle.js
+
+# run server (source)
+deno run --allow-net src/index.ts
+
+# run server "dev mode"
+deno run --allow-net --watch src/index.ts
 
 # get people
 curl http://localhost:8080/people
